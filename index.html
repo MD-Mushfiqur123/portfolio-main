@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjwal Shukla - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-toggle">
+        <label for="theme-toggle" class="theme-toggle-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span class="toggle-ball"></span>
+        </label>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">US</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                <li><a href="#interests" class="nav-link">Interests</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Ujjwal Shukla</h1>
+            <div class="hero-subtitle">
+                <span class="typing-text">B.Tech (CSE), 2nd Year | Lloyd Institute of Engineering & Technology</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="Ujjwal_Shukla_Resume (1).pdf" class="btn btn-primary">Download Resume</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-down"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>I am a passionate Computer Science Engineering student with a keen interest in web development, artificial intelligence, and blockchain technology. I love exploring new technologies and applying them to solve real-world problems. As a continuous learner, I actively participate in hackathons and tech events to enhance my skills and network with like-minded individuals.</p>
+            <div class="education">
+                <h3>Education</h3>
+                <div class="edu-item">
+                    <h4>B.Tech in Computer Science Engineering</h4>
+                    <p>Lloyd Institute of Engineering & Technology</p>
+                    <p>2024 - 2028</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <div class="skill-level"><div class="skill-bar" style="width: 85%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>C</h3>
+                <div class="skill-level"><div class="skill-bar" style="width: 75%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+                <div class="skill-level"><div class="skill-bar" style="width: 90%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <div class="skill-level"><div class="skill-bar" style="width: 85%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+                <p>Basics, learning ReactJS</p>
+                <div class="skill-level"><div class="skill-bar" style="width: 60%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>MySQL</h3>
+                <div class="skill-level"><div class="skill-bar" style="width: 70%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-file-excel"></i>
+                <h3>Microsoft Excel</h3>
+                <div class="skill-level"><div class="skill-bar" style="width: 80%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-brain"></i>
+                <h3>AI & Blockchain</h3>
+                <p>Exploring</p>
+                <div class="skill-level"><div class="skill-bar" style="width: 50%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <h2 class="section-title">Achievements</h2>
+        <div class="achievements-grid">
+            <div class="achievement-card">
+                <i class="fas fa-trophy"></i>
+                <h3>Top 15 Finalist</h3>
+                <p>HackIndia 2025</p>
+            </div>
+            <div class="achievement-card">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Campus Ambassador</h3>
+                <p>LetsUpgrade</p>
+            </div>
+            <div class="achievement-card">
+                <i class="fas fa-users"></i>
+                <h3>Event Management Team</h3>
+                <p>DevSphere India</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image"><i class="fas fa-chart-bar"></i></div>
+                <div class="project-details">
+                    <h3>Student Result Analyzer</h3>
+                    <p class="project-tech">Python + MySQL</p>
+                    <div class="project-description">
+                        <p>A system to analyze and visualize student performance data with MySQL database integration.</p>
+                    </div>
+                    <div class="project-tags"><span>Python</span><span>MySQL</span><span>Data Analysis</span></div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"><i class="fas fa-code"></i></div>
+                <div class="project-details">
+                    <h3>Personal Portfolio Website</h3>
+                    <p class="project-tech">HTML/CSS + JavaScript</p>
+                    <div class="project-description">
+                        <p>A responsive portfolio website built with pure HTML, CSS, and JavaScript to showcase skills and projects.</p>
+                    </div>
+                    <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="leadership" class="section">
+        <h2 class="section-title">Leadership & Volunteering</h2>
+        <div class="leadership-grid">
+            <div class="leadership-card">
+                <i class="fas fa-flag"></i>
+                <div class="leadership-content">
+                    <h3>Campus Ambassador</h3>
+                    <p>LetsUpgrade</p>
+                    <small>Represented the organization on campus, organized workshops, and fostered a tech community.</small>
+                </div>
+            </div>
+            <div class="leadership-card">
+                <i class="fas fa-cogs"></i>
+                <div class="leadership-content">
+                    <h3>Event Logistics & Coordination</h3>
+                    <p>DevSphere India</p>
+                    <small>Managed on-ground logistics and coordinated with various teams to ensure the smooth execution of tech events.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="section">
+        <h2 class="section-title">Interests</h2>
+        <div class="interests-container">
+            <span class="interest-tag">Hackathons</span>
+            <span class="interest-tag">Problem-Solving</span>
+            <span class="interest-tag">Web Development</span>
+            <span class="interest-tag">Blockchain</span>
+            <span class="interest-tag">Artificial Intelligence</span>
+            <span class="interest-tag">Data-Driven Apps</span>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item"><i class="fas fa-envelope"></i><a href="mailto:ujjwalshukla291@gmail.com">ujjwalshukla291@gmail.com</a></div>
+                <div class="contact-item"><i class="fas fa-phone"></i><a href="tel:+918882194557">+91 8882194557</a></div>
+                <div class="contact-item"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/ujjwal-shukla88821/" target="_blank">linkedin.com/in/ujjwal-shukla</a></div>
+                <div class="contact-item"><i class="fab fa-github"></i><a href="https://github.com/techieujjwal" target="_blank">github.com/techieujjwal</a></div>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Ujjwal Shukla. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ujjwal-shukla88821/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/techieujjwal" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:ujjwalshukla291@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
